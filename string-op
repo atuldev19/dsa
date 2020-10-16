@@ -1,0 +1,34 @@
+// Java Program to find if substrings or regions of two 
+// strings are equal 
+
+import java.io.*; 
+
+class CheckIfRegionsEqual { 
+	public static void main(String args[]) 
+	{ 
+
+		// create three string objects 
+		String str1 = new String( 
+				"Welcome to Geeksforgeeks.com"); 
+		String str2 = new String("Geeksforgeeks"); 
+		String str3 = new String("GEEKSFORGEEKS"); 
+
+		// Comparing str1 and str2 
+		System.out.print( 
+			"Result of Comparing of String 1 and String 2: "); 
+		System.out.println( 
+			str1.regionMatches(11, str2, 0, 13)); 
+
+		// Comparing str1 and str3 
+		System.out.print( 
+			"Result of Comparing of String 1 and String 3: "); 
+		System.out.println( 
+			str1.regionMatches(11, str3, 0, 13)); 
+
+		// Comparing str2 and str3 
+		System.out.print( 
+			"Result of Comparing of String 2 and String 3: "); 
+		System.out.println( 
+			str2.regionMatches(0, str3, 0, 13)); 
+	} 
+}
