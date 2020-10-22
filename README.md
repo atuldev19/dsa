@@ -1,3 +1,3 @@
 # dsa
-this repo contains dsa and  related operations.
+this repo contains dsa and related operations.
 
