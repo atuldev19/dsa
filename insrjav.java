@@ -31,7 +31,7 @@ class InsertionSort {
     // Driver method 
     public static void main(String args[]) 
     { 
-        int arr[] = { 12, 11, 13, 5, 6 }; 
+        int arr[] = { 14, 12, 15, 8, 9 }; 
   
         InsertionSort ob = new InsertionSort(); 
         ob.sort(arr); 
