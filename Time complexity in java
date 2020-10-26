@@ -1,0 +1,30 @@
+
+import java.io.*; 
+
+public class Time { 
+	public static void main(String[] args) 
+	{ 
+		
+		long start = System.currentTimeMillis(); 
+	
+	
+
+		count_function(10000000); 
+
+	
+
+	
+		long end = System.currentTimeMillis(); 
+		System.out.println("Counting to 10000000 takes " + 
+									(end - start) + "ms"); 
+	} 
+
+	 
+	public static void count_function(long x) 
+	{ 
+		System.out.println("Loop starts"); 
+		for (long i = 0; i < x; i++) 
+			; 
+		System.out.println("Loop ends"); 
+	} 
+} 
